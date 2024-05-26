@@ -1,32 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cash Register</title>
-</head>
-<body>
-    <div id="input-devideMoney-container">
-        <div id="input-container">
-            <label for="cash">Enter cash from customer:</label>
-            <input id="cash" maxlength="5" type="number">
-            <button id="purchase-btn">Purchase</button>
-        </div>
+    <title>Cash Register Project</title>
+    <link rel="stylesheet" href="cashRe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <h1>Cash Register</h1>
+    <h2>Enter cash recieved from customer:</h2>
+    <input id="cash" type="number"></input>
+    <button id = "purchase-btn">Purchase</button>
+    
+
+    <div id="price-display">
+
+    <p>Total:
+      <span></span></p>
+<div id="change-due"></div>
+    <img src="https://iili.io/JPwIKve.png" class="cashier-icon">
+
     </div>
-    <div id="cash-register">
-        <div id="total"></div>
-        <div id="main">
-            <div id="buttons"><div></div>
-            <div class="button"></div>
-            <div class="button"></div>
-            <div class="button"></div>
-            <div class="button"></div>
-            <div class="button"></div>
-            <div class="button"></div>
-            <div class="button"></div>
-            <div class="button"></div></div>
-            <div id="change-in-drawer"></div>
-        </div>
+    <div id="change-in-drawer">
+      <h3>Change in drawer:</h3>
+      <p id="pennies">Pennies:
+      <span>$3.00</span></p>
+      <p id="nickels">Nickels:
+      <span>$3.00</span></p>
+      <p id="dimes">Dimes:
+      <span>$3.00</span></p>
+      <p id="quarters">Quarters:
+      <span>$3.00</span></p>
+      <p id="ones">Ones:
+      <span>$3.00</span></p>
+      <p id="fives">Fives:
+      <span>$3.00</span></p>
+      <p id="tens">Tens:
+      <span>$3.00</span></p>
+      <p id="twenties">Twenties:
+      <span>$3.00</span></p>
+      <p id="hundreds">Hundreds:
+      <span>$3.00</span></p>
     </div>
-</body>
+
+    <img src="https://iili.io/JPwIfyu.png" class="cashier-icon">
+
+	<script src="cashRe.js"></script>
+  </body>
+
 </html>
